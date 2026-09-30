@@ -32,11 +32,6 @@ img {
   height: auto;
   max-width: 100%;
 }
-.container {
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
 .sr-only {
   position: absolute;
   white-space: nowrap;
@@ -48,4 +43,26 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
   margin: -1px;
+}
+.container {
+  max-width: 320px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.section {
+  padding: 96px 0;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+  .section {
+    padding: 120px 0;
+  }
 }
