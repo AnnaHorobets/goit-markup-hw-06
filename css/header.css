@@ -83,10 +83,11 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    gap: 12px;
   }
   .header-address {
     display: flex;
-    margin-left: 129px;
+    margin-left: auto;
   }
   .address-link {
     color: #434455;

@@ -32,26 +32,6 @@
   background: #fcfcfc;
   position: relative;
 }
-.exit-modal {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 24px;
-  right: 24px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 24px;
-  width: 24px;
-  height: 24px;
-  background: #e7e9fc;
-  color: #2e2f42;
-  transition:
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icons-input {
-  margin-bottom: 8px;
-}
 .modal-text {
   display: flex;
   justify-content: center;
@@ -192,10 +172,8 @@ textarea {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.exit-modal:hover,
-.exit-modal:focus {
-  background-color: #404bbf;
-  color: white;
+.icons-input {
+  margin-bottom: 8px;
 }
 .btn-send:hover,
 .btn-send:focus {

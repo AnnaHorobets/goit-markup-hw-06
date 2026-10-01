@@ -8,7 +8,6 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
 }
 .team-cart {
   background: #fff;
@@ -29,7 +28,6 @@
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  margin-bottom: 72px;
   max-width: 264px;
 }
 .team-name {
