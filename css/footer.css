@@ -153,7 +153,7 @@
   .footer-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 72px;
+    gap: 72px 24px;
     flex-direction: row;
     padding: 0 108px;
   }
@@ -180,6 +180,9 @@
 }
 
 @media screen and (min-width: 1158px) {
+  .footer-logo {
+    padding: 100px 0;
+  }
   .footer-div {
     margin-left: auto;
   }
