@@ -7,13 +7,17 @@
   text-transform: uppercase;
   color: #2e2f42;
   margin-right: auto;
+  padding: 16px 0;
 }
 .logo-2 {
   color: #4d5ae5;
 }
 .header-container {
   display: flex;
-  padding: 16px;
+  padding: 0 16px;
+}
+.footer-burger {
+  padding: 16px 0;
 }
 
 .icons-burger {
@@ -49,6 +53,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 120px;
+  }
   .icons-burger {
     display: none;
   }
