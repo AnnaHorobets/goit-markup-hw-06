@@ -16,17 +16,12 @@
   display: flex;
   padding: 0 16px;
 }
-.footer-burger {
-  padding: 16px 0;
-}
 
 .icons-burger {
+  padding: 16px 0;
   display: flex;
   align-items: center;
   color: #2e2f42;
-  padding: 5px 4px;
-  width: 24px;
-  height: 24px;
   border: 0;
   background-color: transparent;
 }
